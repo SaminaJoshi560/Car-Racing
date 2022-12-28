@@ -1,0 +1,87 @@
+.container{
+    background-color: yellowgreen;
+    background-size: cover;
+}
+
+.hide{
+    display: none;
+}
+.road{
+    width: 400px;
+    height: 100vh;
+    background-color: black;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-left: 7px dashed white;
+    border-right: 7px dashed white ;
+
+}
+
+.car{
+    width: 42px;
+    height: 85px;
+    background-color: black;
+    position: absolute;
+    bottom: 80px;
+    background-image: url(../img/yellow.PNG);
+    background-size: cover;
+}
+
+.vehicle{
+    width: 55px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    bottom: 120px;
+    background-image: url(../img/red.png);
+    background-size: cover;
+}
+
+
+.line{
+    width: 10px;
+    height: 90px;
+    position: absolute;
+    background-color: white;
+    margin-left:200px ;
+
+}
+
+.score{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    text-align: center;
+    padding-top: 23px;
+    font-size: 30px;
+    line-height: 20px;
+    background-color: tomato;
+    color: white;
+    width: 300px;
+    height: 100;
+    box-shadow: 0 0 20px 0px;
+}
+
+.StartScreen{
+    position: absolute;
+    background-color: rgba(8, 168, 8);
+    color: white;
+    z-index: 1;
+    margin-top: 210px;
+    margin-left: 360px;
+    text-align: center;
+    box-shadow: 0 0 29px 0px;
+    font-size: 30px;
+    width: 50%;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 23px;
+}
+
+button{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
